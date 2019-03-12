@@ -12,7 +12,10 @@
     <com.hanks.htextview.typer.TyperTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Aplikasi Jodoh-Jodohan"
+            android:text="PUTUSKAN MASA JOMBLOMU"
+            android:textColor="@color/colorTwo"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
             app:charIncrease="3"
             app:typerSpeed="80"/>
 
@@ -30,6 +33,7 @@
         <LinearLayout android:layout_width="match_parent"
                       android:layout_height="wrap_content"
                       android:gravity="center"
+                      android:layout_marginTop="20dp"
                       android:orientation="horizontal">
 
             <de.hdodenhof.circleimageview.CircleImageView
@@ -37,14 +41,15 @@
                     android:id="@+id/ivDadu1"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
-                    android:src="@drawable/cewe1"
+                    android:src="@drawable/cewek1"
                     app:civ_border_width="2dp"
-                    app:civ_border_color="@color/colorPrimary"/>
+                    app:civ_border_color="@color/colorOne"/>
 
             <TextView android:layout_width="wrap_content"
                       android:layout_height="match_parent"
                       android:gravity="center"
                       android:text="VS"
+                      android:textColor="@color/colorTwo"
                       android:textSize="30dp"/>
 
             <de.hdodenhof.circleimageview.CircleImageView
@@ -52,16 +57,18 @@
                     android:id="@+id/ivDadu2"
                     android:layout_width="96dp"
                     android:layout_height="96dp"
-                    android:src="@drawable/cowo1"
+                    android:src="@drawable/cowok1"
                     app:civ_border_width="2dp"
-                    app:civ_border_color="@color/colorPrimary"/>
+                    app:civ_border_color="@color/colorOne"/>
         </LinearLayout>
 
             <Button android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:text="Start"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/colorThree"
                     android:textColor="@android:color/white"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
                     android:id="@+id/btnCocok"
                     android:layout_gravity="center"/>
      </LinearLayout>

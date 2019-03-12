@@ -15,21 +15,33 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun randomJodoh() {
-        val randomCewe = Random().nextInt(5)+1
-        val randomCowo = Random().nextInt(5)+1
+        val randomCewe = Random().nextInt(6)+1
+        val randomCowo = Random().nextInt(16)+1
         val drawableResCewe = when(randomCewe){
-            1 ->R.drawable.cewe1
-            2 ->R.drawable.cewe2
-            3 ->R.drawable.cewe3
-            4 ->R.drawable.cewe4
-            else ->R.drawable.cewe5
+            1 ->R.drawable.cewek1
+            2 ->R.drawable.cewek2
+            3 ->R.drawable.cewek3
+            4 ->R.drawable.cewek4
+            5 ->R.drawable.cewek5
+            else ->R.drawable.cewek6
         }
         val drawableResCowo = when(randomCowo){
-            1 ->R.drawable.cowo1
-            2 ->R.drawable.cowo2
-            3 ->R.drawable.cowo3
-            4 ->R.drawable.cowo4
-            else ->R.drawable.cowo5
+            1 ->R.drawable.cowok1
+            2 ->R.drawable.cowok2
+            3 ->R.drawable.cowok3
+            4 ->R.drawable.cowok4
+            5 ->R.drawable.cowok5
+            6 ->R.drawable.cowok6
+            7 ->R.drawable.cowok7
+            8 ->R.drawable.cowok8
+            9 ->R.drawable.cowok9
+            10 ->R.drawable.cowok10
+            11 ->R.drawable.cowok11
+            12 ->R.drawable.cowok12
+            13 ->R.drawable.cowok12
+            14 ->R.drawable.cowok12
+            15 ->R.drawable.cowok12
+            else ->R.drawable.cowok16
         }
         ivDadu1.setImageResource(drawableResCewe)
         ivDadu2.setImageResource(drawableResCowo)
